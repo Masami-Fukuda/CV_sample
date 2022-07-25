@@ -27,4 +27,9 @@ python check_and_measure.py
 ```
 'r'キーを押すと、認識・計測してくれるはず。
 
+# ToDo
+QRコードうまくよめないので、しかたなく自分でしきい値しらべてHSVマスクかけてます。<br>
+この場合なら、HSVの S を [大津の二値化](http://labs.eecs.tottori-u.ac.jp/sd/Member/oyamada/OpenCV/html/py_tutorials/py_imgproc/py_thresholding/py_thresholding.html#id5) で処理するといいと思います。<br>
+<br>
+Webカメラは少しいいの使わないとですね。QRコード読めないです。今回は　$640\times480$ でしたからね・・・
  
